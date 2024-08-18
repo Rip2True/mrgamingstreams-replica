@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - MrGamingStreams</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>MrGamingStreams</h1>
+        <nav id="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="login.html" id="login-link">Login</a>
+            <a href="register.html" id="register-link">Register</a>
+            <a href="upload.html" id="upload-link" style="display:none;">Upload</a>
+            <a href="account.html" id="account-link" style="display:none;">Account</a>
+        </nav>
+    </header>
+
+    <main>
+        <form action="login.php" method="POST">
+            <h2>Login to Your Account</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Login">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MrGamingStreams</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
